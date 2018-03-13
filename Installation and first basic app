@@ -1,0 +1,24 @@
+	Open command prompt and start: 
+  
+  Installation
+	
+	1. Check for node installation:       
+     node -v
+	   if it is unrecognized command then download node from www.nodejs.org and install the latest version
+	
+  2. Check for angular cli installation:  
+     ng -v
+	   if it is unrecognized command then: 
+     npm install -g @angular/cli
+	
+	Basic app
+
+	1. To create it from cmd: 
+     ng new <new-project-name>
+	2. To enter to the project: 
+     cd <new-project-name>
+	3. Install typescript: 
+     npm install typescript  --save 
+	4. To launch the app: 
+     ng-serve
+  5. Open in browser to check out:  http://localhost:4200
